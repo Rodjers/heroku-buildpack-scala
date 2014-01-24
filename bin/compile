@@ -156,5 +156,7 @@ if is_play $BUILD_DIR ; then
   fi
 fi
 
+npm install
+
 # Move compiled app back to where Heroku expects it
 mv $BUILD_DIR $APP_BUILD_DIR
